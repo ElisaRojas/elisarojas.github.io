@@ -2024,7 +2024,7 @@
 		}
 
 			#header .icons a {
-				color: #41484c;
+				color: #5e542f; /*Orange footer nav icons*/
 				-moz-transition: color 0.35s ease-in-out;
 				-webkit-transition: color 0.35s ease-in-out;
 				-ms-transition: color 0.35s ease-in-out;
@@ -2091,7 +2091,7 @@
 				#nav ul li a span:before {
 					position: absolute;
 					left: 0;
-					color: #41484c;
+					color: #5e542f; /*Orange nav icons*/
 					text-align: center;
 					width: 1.25em;
 					line-height: 1.75em;
@@ -2104,7 +2104,7 @@
 			}
 
 				#nav ul li a.active span:before {
-					color: #e27689;
+					color: #d6d022; /*Yellow nav icons (active)*/
 				}
 
 /* Footer */
@@ -2112,7 +2112,7 @@
 	#footer {
 		margin-left: 375px;
 		text-align: center;
-		background-color: #dce3e2;
+		background-color: #f7eccf; /*Light orange footer*/
 		padding: 3em 0 4em 0;
 		box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 		font-size: 0.8em;
@@ -2182,20 +2182,24 @@
 			}
 
 			#main > section.one {
-				background-color: #81918E;
+				background-color: #898476; /*Grey orange*/
 				background-image: url("../../images/banner.jpg");
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				background-color: #f2edde; /*Super light orange*/
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: #ede8da; /*Super light orange*/
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				background-color: #e5e0d3; /*Super light orange*/
+			}
+            
+            #main > section.five {
+				background-color: #e0dbce; /*Super light orange*/
 			}
 
 /* Wide */
@@ -2375,7 +2379,7 @@
 				width: 275px;
 				z-index: 10002;
 				width: 275px;
-				background: #222729 url("images/overlay.png");
+				background: #3d3728 url("images/overlay.png"); /*Dark grey orange*/
 				box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.125);
 			}
 
